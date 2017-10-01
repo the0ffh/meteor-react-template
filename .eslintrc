@@ -1,0 +1,88 @@
+{
+  "plugins": [
+    "meteor",
+    "babel"
+  ],
+  "env": {
+    "node": true,
+    "browser": true,
+    "meteor": true
+  },
+  "extends": [
+    "airbnb",
+    "plugin:meteor/recommended"
+  ],
+  "settings": {
+    "import/resolver": {
+      "meteor": {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    }
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "ecmaVersion": 6,
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "strict": 0,
+    "no-underscore-dangle": "off",
+    "no-plusplus": [
+      2,
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ],
+    "meteor/audit-argument-checks": "off",
+    "babel/semi": 2,
+    "max-len": [
+      2,
+      120
+    ],
+    "import/extensions": "off",
+    "import/no-absolute-path": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/order": [
+      2,
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index"
+        ],
+        "newlines-between": "ignore"
+      }
+    ],
+    "import/prefer-default-export": "off",
+    "jsx-a11y/html-has-lang": "off",
+    "jsx-a11y/img-has-alt": "off",
+    "jsx-a11y/img-redundant-alt": "off",
+    "jsx-a11y/media-has-caption": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "react/forbid-prop-types": "off",
+    "react/jsx-pascal-case": "off",
+    "react/require-default-props": "off",
+    "no-tabs": 0,
+    "indent": [
+      "error",
+      "tab"
+    ],
+    "react/jsx-indent": [
+      2,
+      "tab"
+    ],
+    "react/jsx-indent-props": [
+      2,
+      "tab"
+    ]
+  }
+}

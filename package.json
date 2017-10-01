@@ -1,0 +1,39 @@
+{
+  "name": "meteor-react-template",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "lint": "eslint . --ext .jsx",
+    "lint-fix": "eslint --fix . --ext .jsx"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.20.0",
+    "bcrypt": "^1.0.3",
+    "classnames": "^2.2.5",
+    "faker": "^4.1.0",
+    "fela": "^5.1.1",
+    "fela-dom": "^5.0.7",
+    "material-components-web": "^0.18.0",
+    "meteor-node-stubs": "~0.2.4",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-addons-pure-render-mixin": "^15.6.2",
+    "react-dom": "^15.6.1",
+    "react-fela": "^5.2.1",
+    "react-ink": "^6.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "devDependencies": {
+    "@meteorjs/eslint-config-meteor": "^1.0.5",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-import-resolver-meteor": "^0.4.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-meteor": "^4.1.6",
+    "eslint-plugin-react": "^7.3.0"
+  }
+}
